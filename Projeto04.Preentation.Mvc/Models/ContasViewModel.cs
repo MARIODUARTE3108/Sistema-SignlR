@@ -1,0 +1,10 @@
+﻿namespace Projeto04.Preentation.Mvc.Models
+{
+    public class ContasViewModel
+    {
+        public Guid?  Id { get; set; }
+        public string? Nome { get; set; }
+        public decimal? Valor { get; set; }
+        public int? Tipo { get; set; }
+    }
+}
